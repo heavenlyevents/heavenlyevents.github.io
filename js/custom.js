@@ -173,13 +173,11 @@ function updateImageSources(pickedStrings) {
 
 // Example usage:
 const strings = ["./img/galleryPics/1.jpeg", "./img/galleryPics/2.jpeg", "./img/galleryPics/3.jpeg", "./img/galleryPics/4.jpeg", "./img/galleryPics/5.jpeg",
-    "./img/galleryPics/6.jpeg", "./img/galleryPics/7.jpeg", "./img/galleryPics/8.jpeg", "./img/galleryPics/9.jpeg", "./img/galleryPics/10.jpeg"
-    , "./img/galleryPics/11.jpeg", "./img/galleryPics/12.jpeg", "./img/galleryPics/13.jpeg", "./img/galleryPics/14.jpeg", "./img/galleryPics/15.jpeg"
-    , "./img/galleryPics/16.jpeg", "./img/galleryPics/17.jpeg", "./img/galleryPics/18.jpeg", "./img/galleryPics/19.jpeg", "./img/galleryPics/20.jpeg"];
-const numPicks = 12;
+    "./img/galleryPics/6.jpeg", "./img/galleryPics/7.jpeg", "./img/galleryPics/8.jpeg", "./img/galleryPics/9.jpeg"];
+const numPicks = 9;
 
 const pickedStrings = pickRandomStrings(strings, numPicks);
-updateImageSources(pickedStrings);
+//updateImageSources(pickedStrings);
 
 
 
